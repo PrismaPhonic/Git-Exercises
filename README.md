@@ -76,39 +76,39 @@ Answer the following questions:
 
  * It removes files that have not been staged yet
 
-3. What do the -d and -f flags for git clean do?
+2. What do the -d and -f flags for git clean do?
 
  * It removes untracked directories and untracked files
 
-5. What git command creates a branch?
+3. What git command creates a branch?
 
  * git checkout -b
 
-7. What is the difference between a fast-forward and recursive merge?
+4. What is the difference between a fast-forward and recursive merge?
 
  * A fast forward merge happens when changes are being made to a branch while the master branch is not being edited.  A recursive merge happens when the two branches being merged have both been worked on since the branch was made
 
-9. What git command changes to another branch?
+5. What git command changes to another branch?
 
  * git checkout
 
-11. How do you remove modified or deleted files from the working directory?
+6. How do you remove modified or deleted files from the working directory?
 
  * git checkout
 
-13 What git command deletes a branch?
+7. What git command deletes a branch?
 
  * git branch -D
 
-15. What does the git diff command do?
+8. What does the git diff command do?
 
  * Shows you the difference between two commits
 
-17. How do you remove files from the staging area?
+9. How do you remove files from the staging area?
 
  * git reset HEAD or git rm --cached
 
-18. How do merge conflicts happen?
+10. How do merge conflicts happen?
 
  * When changes from two branches have been made to the same file, trying to merge these branches can result in a merge conflict, as git is not sure which version of the file we should be using.  
 
